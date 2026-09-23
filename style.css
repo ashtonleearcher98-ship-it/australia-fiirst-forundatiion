@@ -58,3 +58,23 @@
 .visual-main img{width:100%;height:100%;object-fit:contain;object-position:center;border-radius:inherit}
 .floating-note{left:0;bottom:10px;width:min(300px,70%);padding:20px 22px}
 @media(max-width:900px){.visual-stack{min-height:0;padding:0 0 58px 18px}.visual-main{left:auto;width:100%;aspect-ratio:16/9}.floating-note{bottom:0}}
+
+/* Australia Rising Tour page */
+.tour-page-hero{background:linear-gradient(90deg,rgba(3,22,48,.96),rgba(6,28,66,.72)),url("assets/australia-rising-tour.png") center/cover no-repeat}
+.tour-intro-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:80px;align-items:start}
+.tour-intro h2{font-size:clamp(52px,6vw,82px);line-height:.9;margin:12px 0}
+.tour-copy p,.tour-lead{font-size:17px;color:#46566d;line-height:1.8;margin-top:0}
+.format-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:32px}
+.format-card{background:#fff;border:1px solid var(--line);border-radius:25px;padding:28px;min-height:245px;box-shadow:0 12px 35px rgba(5,28,64,.06)}
+.format-card>span{display:inline-grid;place-items:center;width:44px;height:44px;border-radius:13px;background:var(--navy);color:#fff;font-weight:900}
+.format-card h3{font-size:22px;margin:30px 0 10px}.format-card p{color:var(--muted);font-size:14px;line-height:1.7}
+.tour-notice{margin-top:20px;padding:18px 22px;border-radius:17px;background:#e7eef7;color:#3b4e68;font-size:14px;font-style:italic}
+.state-block{margin-top:55px}.state-heading{display:flex;justify-content:space-between;align-items:end;border-bottom:1px solid #294668;padding-bottom:17px;margin-bottom:18px}
+.state-heading small{color:#9fb5ce;text-transform:uppercase;letter-spacing:.14em;font-weight:800}.state-heading small b{color:#fff;background:var(--red);border-radius:20px;padding:5px 9px;margin-left:8px;font-size:9px}
+.state-heading h3{font-size:44px;margin:3px 0 0}.state-count{color:#9fb5ce;font-size:13px}
+.tour-locations .location-grid{grid-template-columns:repeat(3,1fr)}
+.tour-locations .location{display:flex;flex-direction:column;gap:5px;min-height:94px;justify-content:center}
+.tour-locations .location strong{font-size:17px}.tour-locations .location span{font-size:12px;color:#728197;font-weight:600}
+.tour-footnote{margin-top:35px;color:#8fa7c1;font-size:13px;font-style:italic}
+@media(max-width:900px){.tour-intro-grid,.format-grid{grid-template-columns:1fr}.tour-locations .location-grid{grid-template-columns:1fr 1fr}.tour-intro-grid{gap:20px}}
+@media(max-width:560px){.tour-locations .location-grid{grid-template-columns:1fr}.state-heading{align-items:start;gap:15px}.state-count{text-align:right}}
