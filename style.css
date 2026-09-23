@@ -78,3 +78,7 @@
 .tour-footnote{margin-top:35px;color:#8fa7c1;font-size:13px;font-style:italic}
 @media(max-width:900px){.tour-intro-grid,.format-grid{grid-template-columns:1fr}.tour-locations .location-grid{grid-template-columns:1fr 1fr}.tour-intro-grid{gap:20px}}
 @media(max-width:560px){.tour-locations .location-grid{grid-template-columns:1fr}.state-heading{align-items:start;gap:15px}.state-count{text-align:right}}
+
+/* One-year anniversary banner + media */
+.anniversary-banner{padding:28px 0 8px;background:#fff}.anniversary-banner-link{position:relative;display:block;overflow:hidden;border-radius:28px;background:#07224d;box-shadow:0 20px 55px rgba(4,27,62,.14)}.anniversary-banner-link>img{display:block;width:100%;height:310px;object-fit:cover;object-position:center 42%}.anniversary-banner-link:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(2,18,44,.12),transparent 55%)}.anniversary-banner-label{position:absolute;z-index:2;left:24px;bottom:22px;display:none}.anniversary-media{grid-column:1/-1}.anniversary-media img{aspect-ratio:16/7;object-fit:cover;object-position:center 40%}.media-kicker{font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--red)}
+@media(max-width:700px){.anniversary-banner{padding-top:18px}.anniversary-banner-link{border-radius:20px}.anniversary-banner-link>img{height:auto;aspect-ratio:3/4;object-fit:cover;object-position:center}.anniversary-media img{aspect-ratio:3/4;object-position:center}}
